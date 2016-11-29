@@ -50,3 +50,36 @@ Excenture is the one making the platform
 * Have security in mind and defined upfront
 * Have logging modeled upfront
 * basically plan the system up front
+
+## Patterns
+
+* Make all lambda functions as parrellizable functions
+* Cache states if you can
+* (I missed the others because I was typing a chat...)
+
+## Operations and Monitoring
+
+* Logs from lambdas can go to Kinesis
+* Another lambda can then feed the logs to another source
+* Another lambda can then feed the logs for alerting
+* Basically by using the lambdas and kinesis you can easily stream/send logs
+
+
+## Future of serverless application
+
+* Currently some overuse of lambda
+* Ideal is to go to a framework to manage resources
+* Use the other AWS platform services to supplement the logic in the lambdas
+* Need to have a reference model for the ideal architecture (maybe look into the serverless framework -- seems to be a real name for a framework)
+* If it's not business logic it does not belong in the lambda
+
+## Using lambda
+
+* Don't use it when something else already exists in AWS land
+* Use velocity templates to transform data at the API Gateway level
+* If lots of data ingestion is needed use the kinesis stuff
+* Look at the AWs RESTful endpoints for updating stuff
+* Only use lambda for business logic
+* Use streams where you can to optimize throughput
+* Don't use cloud watch for real metrics
+* Something like Prometheus is good for timeseries based metrics
