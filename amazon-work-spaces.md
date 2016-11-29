@@ -75,3 +75,44 @@ Datetime: Tuesday, November 29th, 2016
 * Billing options:
   * Monthly
   * Hourly
+
+
+### Added bits
+
+* MFA
+* Printers
+* SSO
+* Chromebook support
+* High DPI screens
+* Graphics work spaces
+* Web based access to workspace
+* Windows 10 will be available workspace soon! -- there is much excitement
+
+## Live Demo
+
+* Can launch a work space
+* You select a directory (active directory?) -- no details given on how you make the directory to begin with
+* Create a user or select users
+* Next up you select bundles (basically the strength of the machine AND OS AND software)
+* Running mode
+  * Always on -- will never go down and is billed Monthly
+  * AutoStop -- hourly billing, stopped with data saved to disk, slower start about 60 seconds, auto off will be based on time you choose
+* Encryption -- you can encrypt the data if you want, you choose an AWS key that already exists or make a new one
+* Tag -- makes it easy to see how a machine contributes within an organization, it's a tag...
+* Launch the workspace last...... BOOM takes a minute or so and then it starts up
+* Email sends to the user for logging in if there is no AD setup
+
+### Directory follow up
+
+* Access to Internet settings
+* Security Groups settings, e.g. only allowed certain ports open
+* Can setup web based access via Chrome or Firefox
+* Maintenance mode so it'll update the machine for you 1 time a month
+
+### Connecting
+
+* Can see the info on the network if you look at the (i) button on the bottom right
+* 200ms download speed required
+* Consistent performance for the end user
+* AWS backbone for internet speeds -- they are happy about 150Mbps download, fiber is more impressive
+
