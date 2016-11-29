@@ -116,3 +116,26 @@ Datetime: Tuesday, November 29th, 2016
 * Consistent performance for the end user
 * AWS backbone for internet speeds -- they are happy about 150Mbps download, fiber is more impressive
 
+## User Stories
+
+* Yamaha was able to get new software and use work spaces instead of buying new hardware
+
+## Q/A
+
+* Security software could mess up login
+* The bundles come with some anti-virus installed
+* They do not reveal the CPU architecture to customers (obviously)
+* They provide consistent performance -- don't worry about low level details
+* 45-60 seconds from a "hibernated" work space
+* Turn of patches and AWS does not patch -- except zero day hits
+* Goal to make HIPAA compliant in the future
+* Two Nics attached to your device (one for your network and one for AWS network)
+* Goal to have office 365 on the device as a bundle, not out yet
+* Does not monitor the applications installed by users
+* Not allowed to discuss road map....
+* USB pass through is allowed for basically drives, not so much cameras
+* Handles the orientation settings when you connect, so multiple monitors could be used
+* Expiring users would need to happen via API settings
+* Plan to support Windows 10 -- no Windows 8 will happen
+* Connections are through the AWS gateway
+* Multi region fail over is not yet there
