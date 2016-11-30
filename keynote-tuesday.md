@@ -50,3 +50,16 @@ They have a goal to move to 100% cloud with _no_ local servers.
 
 * They have FPGAs attached -- (I've no idea what this means)
 * Adds hardware acceleration
+
+## Amazon Athena
+
+* Query S3 directly
+* You don't have to run your own instances
+
+## New Amazon AI services
+
+* Amazon Rekognition -- image recognition service
+* Amazon Polly -- text to speech learning service
+  * Can cache responses
+  * Has 47 voices and 27 different languages
+* Amazon Lex -- it's what is inside Alexa
