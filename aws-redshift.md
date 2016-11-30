@@ -35,3 +35,14 @@ I was 10 minutes late due to long walk.
   * Will have best distribution key
   * You can create a Redshift based one
 * QuickSight may help to show how RedShift is doing
+
+
+## What to check
+
+* Have good data hygiene
+* Check queues of data over time
+* Keep data on your RedShift over time
+* Keep stats to ensure RedShift is healthy
+* Apparently easier to maintain if you look at these stats regularly
+* Optimize for few queries very fast
+* Prioritize queries via WLM queue
