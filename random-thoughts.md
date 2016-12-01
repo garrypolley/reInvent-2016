@@ -8,3 +8,4 @@ This page has a lot of random thoughts from the converence that came to mind.
 * Maybe create a skill for cooking, e.g. recipes and telling you what to do for it
   * Can this run in the background?
   * I want to be able to ask: "How much sugar?"
+* Maybe use this AWS answer ec2 scheduler for data science boxes

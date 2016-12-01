@@ -41,3 +41,31 @@ using AWS.
 * Limit monitor
 * EBS snapshot scheduler
 * EC2 Scheduler
+  * For turning off dev and test environments
+  * Uses lambda functions to turn off and on based on your set schedule
+
+## Networking Solutions
+
+* VPN monitor
+* ClassicLink Mirror
+* AWS WAF security automation
+* Global transit VPC
+
+
+## Management solutions
+
+* Cost optimization: EC2 right-sizing
+* Cost optimization: Monitoring
+* Account Management
+* Deployment pipeline for IIS on Windows Server
+* Centralized logging solution -- comes with visualizations out of the box to help
+
+## Big data solutions
+
+* Real-time analytics with Spark Streaming
+* Streaming analytics pipeline
+* [Data lake solution][https://github.com/awslabs/aws-data-lake-solution] -- makes it easier for random data needs and is serverless and turn key
+
+Look into Amazon Kinesis Analytics for analyzing data we get in  our system.
+
+They also have partner products like Chef and Puppet ready to go turn key style.
